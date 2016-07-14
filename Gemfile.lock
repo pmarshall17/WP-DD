@@ -1,0 +1,16 @@
+GEM
+  specs:
+    materialize-sass (0.97.6)
+      sass (~> 3.3)
+    puma (3.4.0)
+    sass (3.4.22)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  materialize-sass
+  puma
+
+BUNDLED WITH
+   1.12.5

@@ -1,0 +1,103 @@
+body {
+	background-image: url(http://orig15.deviantart.net/888f/f/2012/326/8/3/4_wolves___wolf_pack_by_resresres-d5lrvai.jpg);
+	background-size: 100%;
+}
+
+.title {
+	 color: #66b3ff;
+	 text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: transparent;
+}
+
+li a {
+    display: block;
+    color: #66b3ff;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+// Info Page
+.information-page{
+  background-color:#000000;
+  color:#FFFFFF;
+}
+h1.info-title {
+  margin-top: 135px;
+}
+.info-jump {
+  display: block;
+}
+
+.veterans2 {
+  display: inline;
+}
+
+.info-nav{
+  position: fixed;
+  top:0;
+  padding: 1% auto;
+  z-index: 950;
+  width:100%;
+  background: white;
+}
+.information-page .container {
+  margin-top: 0%;
+  padding: 15px;
+}
+.info-box {
+  padding-bottom: 26%;
+  background-repeat:no-repeat !important;
+  background-size: cover !important;
+}
+.info-box.ptsd {
+  background: url("ptsd-bg.jpg");
+  padding: 11% 0 15% 0;
+}
+.info-box.ptsd .flow-text {
+  width: 46%;
+}
+.info-box.veterans-info {
+  background: url("soldiers.jpg");
+  padding: 8% 0 5% 0;
+}
+.info-box.dogs {
+  background: url("dogs-info.jpg");
+}
+.info-box .col {
+  background: rgba(161, 161, 161, 0.6);
+  padding: 15px 20px 25px;
+  color: black;
+}
+.info-nav li {
+  border-left: #444444 3px solid;
+  margin: 4px 0;
+  padding: 0 6px;
+}
+.info-nav li:hover{
+  border-left: #256f93 3px solid;
+}
+.info-nav a {
+  font-size:19px;
+  color:#5b5b5b;
+}
+.info-nav li:hover a {
+  color:#256f93;
+}
+.info-box.dogs{
+  padding: 11% 0 15% 0;
+}
+
