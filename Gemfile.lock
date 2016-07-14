@@ -1,7 +1,11 @@
 GEM
   specs:
-    materialize-sass (0.97.6)
-      sass (~> 3.3)
+    autoprefixer-rails (6.3.6.2)
+      execjs
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+    execjs (2.7.0)
     puma (3.4.0)
     sass (3.4.22)
 
@@ -9,7 +13,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  materialize-sass
+  bootstrap-sass
   puma
 
 BUNDLED WITH
