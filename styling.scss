@@ -1,7 +1,106 @@
-body {
-	background-image: url(http://orig15.deviantart.net/888f/f/2012/326/8/3/4_wolves___wolf_pack_by_resresres-d5lrvai.jpg);
-	background-size: 100%;
+.chart td {
+  line-height: 4px;
 }
+
+.information-page{
+  background-color:#000000;
+  color:#FFFFFF;
+}
+h1.info-title {
+  margin-top: 135px;
+}
+h1, h3{
+  color:rgb(255,255,255);
+  text-shadow: 2px 1px 2px #969696;
+}
+.info-jump {
+  display: block;
+}
+
+.veterans2 {
+  display: inline;
+}
+
+.info-nav{
+  position: fixed;
+  top:0;
+  padding: 1% auto;
+  z-index: 950;
+  width:100%;
+  background: transparent;
+}
+.information-page .container {
+  margin-top: 0%;
+  padding: 15px;
+}
+.info-box {
+  padding-bottom: 26%;
+  background-repeat:no-repeat !important;
+  background-size: cover !important;
+}
+.home-page {
+  background: url("cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 11% 0 15% 0;
+  height: 750px; /*This is the hard code for the home page pic and needs to be corrected*/
+}
+.info-box.ptsd .flow-text {
+  width: 46%;
+}
+.info-box.company-info {
+  background: url("eyes.jpg");
+  padding: 8% 0 5% 0;
+  height: 800px;
+  width: 46%;
+}
+
+.challenger {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+.info-box.dogs {
+  background: url("green_eyes.jpg");
+  padding: 8% 0 5% 0;
+  height: 800px;
+  width: 46%;
+}
+.info-box .col {
+  padding: 15px 20px 25px;
+}
+
+.info-nav li {
+  border-left: #444444 3px solid;
+  margin: 4px 0;
+  padding: 0 6px;
+  color: #66b3ff;
+}
+.info-nav li:hover{
+  border-left: #256f93 3px solid;
+  color: #66b3ff;
+}
+.info-nav a {
+  font-size:15px;
+  color: #66b3ff;
+}
+.info-nav li:hover a {
+  color: #66b3ff;
+}
+
+.info-box.team-info {
+  background: url("o-WOLVES-facebook.jpg");
+  padding: 11% 0 15% 0;
+  height: 800px;
+}
+
+// Cards
+.card .card-title {
+  font-size: 19px;
+}
+
+
+
+
 
 .title {
 	 color: #66b3ff;
